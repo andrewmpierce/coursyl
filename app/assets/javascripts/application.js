@@ -16,11 +16,8 @@
 //= require_tree .
 
 
-function deleteLastRow(){
+function deleteLastRow(displayType){
   var section = document.getElementById("grading_table");
-  section.lastElementChild.style.display = "none";
+  section.lastElementChild.style.display = displayType;
 
 }
-
-
-document.onload= deleteLastRow();
