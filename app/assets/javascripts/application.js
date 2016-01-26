@@ -21,3 +21,8 @@ function deleteLastRow(displayType){
   section.lastElementChild.style.display = displayType;
 
 }
+
+function deleteSelection(i){
+  var row = document.getElementById(i);
+  row.style.display = "none";
+}
