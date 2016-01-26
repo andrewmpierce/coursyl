@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+
+
+function delete_last_row(){
+  var section = document.getElementById("grading_table");
+  section.lastElementChild.style.display = "none";
+
+}
+
+
+document.onload= delete_last_row();
