@@ -16,13 +16,13 @@
 //= require_tree .
 
 
-function deleteLastRow(displayType){
+function hideLastRow(displayType){
   var section = document.getElementById("grading_table");
   section.lastElementChild.style.display = displayType;
 
 }
 
-function deleteSelection(i){
+function hideSelection(i){
   var row = document.getElementById(i);
   row.style.display = "none";
 }
